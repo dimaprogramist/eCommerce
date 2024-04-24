@@ -1,4 +1,14 @@
 /* styles.css */
+header a {
+color: orange;
+
+}
+
+header a:hover {
+    color: white;
+   
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -15,6 +25,10 @@ header {
 nav ul {
     list-style-type: none;
     padding: 0;
+    transition-duration: 0.4s;
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-delay: 0.4s;
 }
 
 nav ul li {
