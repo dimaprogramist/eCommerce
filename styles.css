@@ -6,6 +6,9 @@ color: orange;
 
 header a:hover {
     color: white;
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: linear;
    
 }
 
@@ -45,4 +48,26 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
+}
+.product {
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: scale(1.05);
+    border: #333 10px solid;
+}
+.product img:hover {
+    transform: rotate(5deg);
+    transition: transform 0.3s ease;
+}
+.submenu {
+    transform: translateY(-20px);
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.nav-item:hover .submenu {
+    transform: translateY(0);
+    opacity: 1;
 }
