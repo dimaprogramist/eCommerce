@@ -67,7 +67,6 @@ footer {
 
 .product:hover {
     transform: scale(1.05);
-    border: #333 10px solid;
 }
 .product img:hover {
     transform: rotate(5deg);
