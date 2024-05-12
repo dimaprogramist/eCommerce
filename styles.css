@@ -93,3 +93,16 @@ nav ul li a.active {
     pointer-events: none;
     color: grey;
 }
+@keyframes text-color-change {
+    from {
+        color: black;
+    }
+
+    to {
+        color: red;
+    }
+}
+
+.element-with-animation {
+    animation: text-color-change 2s infinite;
+}
