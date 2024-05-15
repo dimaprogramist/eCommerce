@@ -5,8 +5,8 @@
 
 header,
 footer {
-    background-color: var(--primary-color);
-    color: #ffffff;
+    background-color: #273A60;
+    color: #FFFFF0;
     grid-column: 1 / -1;
 }
 
@@ -42,6 +42,8 @@ button:hover {
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #FAFAFA;
+    color: #333;
     margin: 0;
     padding: 0;
 }
