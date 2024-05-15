@@ -19,14 +19,16 @@ header a:hover {
 }
 
 button {
-    background-color: #007BFF;
-    /* Синий */
+    background-color: #28a745;
     color: #ffffff;
-    /* Белый */
     padding: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
 }
 
 body {
@@ -138,4 +140,12 @@ nav ul li a.active {
         display: block;
         margin: 0;
     }
+}
+
+a {
+    color: #0056b3;
+}
+
+a:hover {
+    color: #FFD700;
 }
