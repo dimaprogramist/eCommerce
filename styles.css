@@ -1,10 +1,12 @@
 /* styles.css */
 header,
 footer {
+    background-color: #007BFF;
+    color: #ffffff;
     grid-column: 1 / -1;
 }
 header a {
-color: orange;
+color: rgb(255, 165, 0);
 
 }
 
@@ -16,8 +18,19 @@ header a:hover {
    
 }
 
+button {
+    background-color: #007BFF;
+    /* Синий */
+    color: #ffffff;
+    /* Белый */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -27,6 +40,10 @@ header {
     color: #fff;
     padding: 10px;
     text-align: center;
+}
+
+nav a:hover {
+    color: #FFD700;
 }
 
 nav ul {
@@ -104,4 +121,21 @@ nav ul li a.active {
 
 .element-with-animation {
     animation: text-color-change 2s infinite;
+}
+
+@media (max-width: 768px) {
+
+    header,
+    footer {
+        text-align: center;
+    }
+
+    nav ul {
+        display: block;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0;
+    }
 }
