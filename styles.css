@@ -171,3 +171,12 @@ a:hover {
 .container {
     padding: 20px;
 }
+.carousel-item h2 {
+    font-size: 20px;
+    /* Уменьшаем размер шрифта */
+}
+
+.carousel-item p {
+    line-height: 1.6;
+    font-size: 14px;
+}
