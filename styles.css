@@ -161,11 +161,12 @@ a:hover {
     color: #FFD700;
 }
 .carousel-item p {
-    line-height: 1.6;
-    margin-bottom: 15px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 14px;
 }
 .carousel-item {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
    }
 
 .container {
@@ -176,7 +177,5 @@ a:hover {
     /* Уменьшаем размер шрифта */
 }
 
-.carousel-item p {
-    line-height: 1.6;
-    font-size: 14px;
-}
+
+   
