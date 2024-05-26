@@ -160,3 +160,7 @@ a {
 a:hover {
     color: #FFD700;
 }
+.carousel-item p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
