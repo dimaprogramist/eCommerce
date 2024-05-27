@@ -178,3 +178,26 @@ a:hover {
 .carousel-item li {
     line-height: 1.5;
 }
+.carousel-item {
+    padding: 20px;
+}
+
+.carousel-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.carousel-item p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.carousel-item ul {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.carousel-item li {
+    font-size: 14px;
+    line-height: 1.3;
+}
