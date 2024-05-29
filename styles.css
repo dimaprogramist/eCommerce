@@ -168,6 +168,7 @@ a:hover {
 .carousel-item {
     margin-bottom: 30px;
     padding: 20px;
+min-height: 400px;
    }
 
 .container {
