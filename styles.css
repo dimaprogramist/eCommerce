@@ -198,8 +198,8 @@ min-height: 400px;
 
 .carousel-control-prev-icon {
     box-shadow: 0 0 10px #fff;
-    background-image: url('<i class="fi fi-sr-arrow-circle-right"></i>');
-        filter: invert(100%);
+    background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="%23007bff" viewBox="0 0 8 8"%3E%3Cpath d="M5.5 0l-4 4 4 4V5.5H8V2.5H5.5V0z"/%3E%3C/svg%3E');
+    filter: invert(100%);
     }
 
 .carousel-control-next-icon {
