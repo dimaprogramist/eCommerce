@@ -187,3 +187,19 @@ min-height: 400px;
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.carousel-control-prev-icon {
+    box-shadow: 0 0 10px #fff;
+}
+
+.carousel-control-next-icon {
+    box-shadow: 0 0 10px #fff;
+}
